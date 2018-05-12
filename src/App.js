@@ -39,6 +39,7 @@ class Header extends Component {
           <NavLink to='/content'>PORTFOLIO</NavLink>
           <NavLink to='/contact'>CONTACT</NavLink>
         </div>
+        { this.props.children }
         <hr/>
       </HeaderDiv>
     );
